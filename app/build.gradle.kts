@@ -49,14 +49,12 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
 
-    // OSMDroid (OpenStreetMap)
-    implementation("org.osmdroid:osmdroid-android:6.1.14")
-
     // Google Play Services Location (para ubicación precisa)
     implementation("com.google.android.gms:play-services-location:21.0.1")
 
-    // Lifecycle (opcional para sensor o lifecycle-aware components)
-    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
+    //implementations adicionales
+    implementation("org.osmdroid:osmdroid-android:6.1.14")
+    implementation("com.github.MKergall:osmbonuspack:6.9.0")
 
     // Test
     testImplementation(libs.junit)
