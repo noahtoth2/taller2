@@ -50,7 +50,7 @@ class MapActivity : AppCompatActivity() {
     private var roadOverlay: Polyline? = null
     private lateinit var sensorManager: SensorManager
     private lateinit var lightSensor: Sensor
-    private val LUX_THRESHOLD = 1000
+    private val LUX_THRESHOLD = 40
     private var darkApplied = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
